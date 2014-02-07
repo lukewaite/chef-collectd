@@ -16,14 +16,14 @@
 
 default['collectd']['interval'] = 10
 default['collectd']['read_threads'] = 5
-default['collectd']['version'] = "5.1.0"
+default['collectd']['version'] = "5.4.1"
 default['collectd']['fqdn_lookup'] = "false"
 default['collectd']['server_role'] = "collectd-server"
 default['collectd']['install_type'] = "package"
 default['collectd']['source_tar_name_prefix'] = "collectd-"
 default['collectd']['source_tar_name_extension'] = ".tar.gz"
 default['collectd']['source_url_prefix'] = "http://collectd.org/files/"
-default['collectd']['checksum'] = "521d4be7df5bc1124b7b9ea88227e95839a5f7c1b704a5bde0f60f058ec6eecb"
+default['collectd']['checksum'] = "853680936893df00bfc2be58f61ab9181fecb1cf45fc5cddcb7d25da98855f65"
 default['collectd']['log_level'] = "error"
 default['collectd']['log_file'] = "collectd.log"
 default['collectd']['log_timestamp'] = "true"
