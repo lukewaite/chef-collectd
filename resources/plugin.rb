@@ -30,4 +30,4 @@ attribute :options, :kind_of => Hash
 attribute :modules, :kind_of => Hash
 attribute :template, :kind_of => String
 attribute :source, :kind_of => String
-attribute :cookbook, :kind_of => String
+attribute :cookbook_name, :kind_of => String
