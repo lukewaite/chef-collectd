@@ -40,7 +40,7 @@ if node['collectd']['version'] =~ /5\.\d+/
       :port => 2003,
       :prefix => node['collectd']['graphite_prefix'],
       :escape_character => "_",
-      :store_rates => false
+      :store_rates => true
     })
   end
 else

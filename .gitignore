@@ -8,3 +8,4 @@ test/kitchen/.kitchen
 *.lock
 .vagrant
 *.un~
+.idea
