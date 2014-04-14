@@ -9,3 +9,4 @@ test/kitchen/.kitchen
 .vagrant
 *.un~
 .idea
+collectd.iml
